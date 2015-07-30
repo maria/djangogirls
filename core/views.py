@@ -94,3 +94,6 @@ def events_ical(request):
 
 def newsletter(request):
     return render(request, 'newsletter.html', {})
+
+def add_resources(request):
+    return render(request, 'add_resources.html', {})
