@@ -5,15 +5,51 @@
 
     <div class="container">
 
-        <section id="resources">
+        <section id="add_resources">
             <div class="row">
                 <div class="col-md-12">
                     <h2>Add a Resource</h2>
                     <p>
-                        All the resources we've created are open sourced under Creative Commons Attribution 4.0 International (CC BY 4). This means that
-                        you can modify, distribute and use commercially, but you cannot sublicense and you have to give us credit and include
-                        copyright.
+                        We're looking for tutorials, project ideas, open source projects, and other materials that will help our attendees 
+                        keep learning beyond their experience in the workshop. If you know of an awesome website, code snippet, or book that 
+                        learners should definitely check out, submit it here! We'll review it and if it meets our standards, we'll add it. 
                     </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="" method="POST">
+                        <div><label for="resource_name">What's the title of the resource?</label></div>
+                        <div><input type="text" name="resource_name" max_length="100" /></div>
+
+                        <br />
+                        <div><input type="submit" value="Submit" /></div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Our Standards</h3>
+                    <p>
+                        Submitted resources should be beginner-friendly, and form a logical extension of our existing tutorials. For example, 
+                        we're looking for links that will teach our participants about testing, integrating JavaScript into their projects, best practices, customizing the admin, and much more. If what you're submitting was useful for you, it'll be useful for 
+                        them. 
+                    </p>
+                    <p>
+                        All submissions should reference Python 2.7 and Django 1.6 at a minimum; Python 3 and Django 1.8 are preferred. 
+                    </p>
+                </div>
+
+                <div class="col-md-6">   
+                    <h3>Our Process</h3>
+                    <p>
+                        We have a team of volunteer reviewers who look at each submission and vet it before adding it to our website. They make sure 
+                        that submissions reference recent versions of Python and Django, that they are beginner-friendly, and that they conform to the
+                        Code of Conduct. We try to maintain a balance between providing a wealth of resources and not overwhelming our attendees, 
+                        so only submissions that we feel are top quality will be approved. 
+                    </p>            
                 </div>
             </div>
         </section>
